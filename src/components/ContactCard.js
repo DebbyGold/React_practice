@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AddContact(){
+export default function ContactCard(){
   return(
 <div>
 </div>
