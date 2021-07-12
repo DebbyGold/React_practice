@@ -3,6 +3,7 @@ import Header from "./Header";
 import AddContact from "./AddContact";
 import ContactList from "./ContactList";
 import ContactCard from "./ContactCard";
+import "../components/Global.css"
 
 
 export default function App() {
