@@ -16,7 +16,7 @@ return(
 <div className="ui field">
 <label>Email</label>
 <input type="email" name="email" placeholder="Email" />
-<button AddclassName="ui button blue">Add</button>
+<button className="ui button blue" style={{marginTop:"15px"}}>Add</button>
 </div>
 </form>
 </div> 
