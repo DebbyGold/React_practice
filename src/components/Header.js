@@ -3,9 +3,8 @@ import "../components/Global.css";
 
 export default function Header(){
 return(
-<div className="ui center">
+<div className="ui fixed menu">
 <h2>Contact Manager</h2>
-<hr />
 </div>
 )
 }

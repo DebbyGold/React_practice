@@ -8,7 +8,7 @@ import "../components/Global.css"
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="ui container App">
 <Header />
 <AddContact />
 <ContactList />
