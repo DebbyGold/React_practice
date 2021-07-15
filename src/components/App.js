@@ -8,7 +8,7 @@ import "../components/Global.css"
 
 export default function App() {
 
-const Contacts=[
+const contacts=[
   {
   Id:1,
   Name:"folorunsho",
@@ -38,7 +38,7 @@ const Contacts=[
     <div className="ui container App">
 <Header />
 <AddContact />
-<ContactList Contacts={Contacts}/>
+<ContactList contacts={contacts}/>
 <ContactCard />
     </div>
   );
