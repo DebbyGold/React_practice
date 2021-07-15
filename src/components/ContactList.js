@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactList(props){
 
-const renderContactLists=props.contacts.map((contact) => {
+const renderContactLists=props.Contacts.map((contact) => {
 return(
 <div className="item">
 <div className="content">
