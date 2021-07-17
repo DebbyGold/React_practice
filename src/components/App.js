@@ -39,7 +39,6 @@ const contacts=[
 <Header />
 <AddContact />
 <ContactList contacts={contacts}/>
-<ContactCard />
     </div>
   );
 }

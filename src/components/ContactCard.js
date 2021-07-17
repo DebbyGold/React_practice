@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function ContactCard(props){
-const [id, Name, Email]=props.contacts.map((contact)=>{
-})
+const [Id, Name, Email]=props.contact;
+
   return(
 <div className="item">
 <div className="content">
