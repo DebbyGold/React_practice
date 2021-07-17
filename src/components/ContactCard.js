@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ContactCard(props){
-const [Id, Name, Email]=props.contact;
+const {Id, Name, Email}=props.contact;
 
   return(
 <div className="item">
